@@ -1,5 +1,7 @@
 import React from "react";
 
-export function Navbar(){
-    return <nav>NAV</nav>
+function Navbar() {
+	return <nav>NAV</nav>;
 }
+
+export default Navbar;
