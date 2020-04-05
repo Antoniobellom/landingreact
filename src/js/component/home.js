@@ -15,6 +15,7 @@ export function Home() {
 			<div className="col-4">
 				<Cards />
 			</div>
+			<Footer />
 		</div>
 	);
 }
