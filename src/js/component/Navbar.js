@@ -15,7 +15,7 @@ function Navbar() {
 					aria-controls="navbarSupportedContent"
 					aria-expanded="false"
 					aria-label="Toggle navigation">
-					<span className="navbar-toggler-icon"></span>
+					<span className="navbar-toggler-icon" />
 				</button>
 				<div
 					className="collapse navbar-collapse"
@@ -51,7 +51,7 @@ function Navbar() {
 								<a className="dropdown-item" href="#">
 									Another action
 								</a>
-								<div className="dropdown-divider"></div>
+								<div className="dropdown-divider" />
 								<a className="dropdown-item" href="#">
 									Something else here
 								</a>

@@ -11,9 +11,23 @@ export function Home() {
 	return (
 		<div>
 			<Navbar />
-			<Jumbotron />
-			<div className="col-4">
-				<Cards />
+			<div className="container">
+				<Jumbotron />
+
+				<div className="row text-center">
+					<div className="col-lg-3 col-md-6 mb-4">
+						<Cards />
+					</div>
+					<div className="col-lg-3 col-md-6 mb-4">
+						<Cards />
+					</div>
+					<div className="col-lg-3 col-md-6 mb-4">
+						<Cards />
+					</div>
+					<div className="col-lg-3 col-md-6 mb-4">
+						<Cards />
+					</div>
+				</div>
 			</div>
 		</div>
 	);
